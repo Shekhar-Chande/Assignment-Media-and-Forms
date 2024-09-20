@@ -1,0 +1,27 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+ 
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.Image-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+

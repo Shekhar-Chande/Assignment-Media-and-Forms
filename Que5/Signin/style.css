@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,p{
+    text-align: center;
+}
+.main input{
+    width: 200px;
+}
+
+.container{
+    border: 1px solid black;
+    display: flex;
+   flex-direction: column;
+
+   justify-content: center;
+   align-items: center; 
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.gender{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.clearfix{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
